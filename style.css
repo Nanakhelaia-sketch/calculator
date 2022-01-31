@@ -9,6 +9,9 @@
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    border-left-color: goldenrod;
+    border-right-color: goldenrod;
+    color: goldenrod;
 }
 .buttons{
     display: grid;
@@ -32,4 +35,8 @@
 .container{
     margin-left: 800px;
     margin-top: 100px;
+}
+.button:hover{
+    background-color: goldenrod;
+    color: aliceblue;
 }
